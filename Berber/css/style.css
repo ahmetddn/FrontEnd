@@ -1,0 +1,539 @@
+/* NAVS */ 
+
+	#sidebar-wrapper {
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 25%;
+	    /*height: 100vh;*/
+	    height: 100%;
+	}
+
+	#sidebar-wrapper .side-top {
+		/*position: absolute;
+		width: 25%;
+		height: 100vh;*/
+		height: 100%;
+		text-align: center;
+		background-color: black;
+		padding-top: 65%;
+	}
+
+	#sidebar-wrapper .side-top li {
+		list-style-type: none;
+		padding-top: 20px;
+	}
+
+	#sidebar-wrapper .sidebar-nav li a {
+		padding: 7px 80px 7px;
+	}
+
+	#sidebar-wrapper .logo-sidebar {
+		margin-left: -30px;
+	}
+
+	#sidebar-wrapper .side-top a {
+		list-style-type: none;
+		padding-top: 20px;
+		color: #999999;
+		font-weight: 600;
+		padding: 7px 50px 7px;
+		border-radius: 10px;
+	}  
+
+	#sidebar-wrapper .side-top li a:hover {
+		text-decoration: none;
+		padding: 7px 50px 7px;
+		border-radius: 10px;
+		color: #ffffff;
+		background: #bb9d52;
+		transition: 0.7s ease-in-out;
+	}  
+
+	#sidebar-wrapper .side-top li a.active {
+	    background: #bb9d52;
+	    color: #ffffff;
+	}
+
+	#sidebar-wrapper .sidebar-nav {
+		padding: 0;
+		margin: 0;
+		top: 0;
+		left: 0;
+	}
+
+	#content-wrapper {
+		position: absolute;
+	    top: 0;
+	    left: 25%;
+	    width: 75%;
+	    height: 100%;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	/* NAVS */ 
+
+
+
+	#content-wrapper .section {
+		width: 100%;
+		height: 100vh;
+	}
+	#content-wrapper .section .container {
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+
+
+
+
+
+
+/* 1. SECTION BASLANGICI */ 
+	
+	.homeSection {
+		background: url(../images/barber_slider.jpg) fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*float: right;*/
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* justify-content: center; */
+		/* align-items: center; */
+	}
+
+	.homeSection:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		opacity: 0.5;
+		width: 100%;
+		height: 100vh;
+		background: #000000;
+	}
+
+	.homeSection .genelAlan {
+		/* width: 80%; */
+		/* height: 60vh; */
+		padding: 50px;
+		height: 100vh;
+	}
+
+	.homeSection .row {
+		/* padding: 50px; */
+		/* opacity: 1; */
+		padding: 100px;
+	}
+
+	.homeSection h2 strong {		
+	    font-family: 'Montserrat', sans-serif;
+		font-size: 68px;
+	    font-weight: 700;
+	    color: #ffffff;
+	}
+
+	.homeSection h2 {
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 40px;
+	    letter-spacing: 5px;
+	    color: #ffffff;
+	}
+
+	.homeSection .yazi {
+    	font-weight: 300;
+    	padding: 0 0 40px;
+    	color: #ffffff;
+    	font-size: 18px;
+	}
+
+	.homeSection .genelAlan a {
+		border: 1px solid #000000;
+		background-color: #000000;
+		border-radius: 20px;
+	    padding: 17px 40px;
+	    font-size: 15px;
+	    font-weight: 600;
+	    text-decoration: none;
+	    color: #ffffff;
+	}
+
+	.homeSection .genelAlan a:hover {
+	    color: #ffffff;
+   		background: #bb9d52;
+   		border: 2px solid #ffffff;
+   		padding: 17px 40px;
+   		transition: 0.4s ease-in-out;
+	}
+
+
+	/* 1. SECTION BITIS */ 	
+
+
+
+/* 2. SECTION BASLANGIC */ 
+	
+	.aboutSection {
+		background-color: #ffffff;
+	    /*float: right;*/
+	}
+
+	.aboutSection .genelAlan {
+		height: 100vh;
+		padding-top: 100px;
+	}
+
+	.aboutSection .genelAlan h4 {
+	    font-size: 15px;
+	    letter-spacing: 5px;
+	    font-weight: 600;
+	}
+
+	.aboutSection .genelAlan h2 {
+   		color: #1f1f1f;
+   		font-family: 'Montserrat', sans-serif;
+   		font-size: 38px;
+   		font-weight: 600;
+		padding-top: 10px;
+	}
+
+	.aboutSection .yazi   {
+	    /* padding-top: 10px; */
+	    /* padding-bottom: 0; */
+	    font-size: 21px;
+	    font-style: italic;
+	    color: #999;
+		padding-top: 25px;
+	}
+
+	.aboutSection .yazi2  {
+	    /* margin-top: 10px; */
+	    /* margin-bottom: 30px; */
+	    font-size: 17.5px;
+	    font-style: italic;
+	    color: #999;
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
+
+	.aboutSection a {
+		background-color: #000000;
+		border: 1px solid #000000;
+		border-radius: 20px;
+	    padding: 17px 40px;
+	    font-size: 15px;
+	    font-weight: 600;
+	    text-decoration: none;
+	    color: #ffffff;
+	}
+
+	.aboutSection .a {
+		width: 100%;
+		left: 0;
+		border: 1px dashed #d3cbdb;
+	}
+
+	.aboutSection a:hover {
+		text-decoration: none;
+	    color: #ffffff;
+   		background: #bb9d52;
+   		border: 2px solid #000000;
+   		padding: 17px 40px;
+   		transition: 0.4s ease-in-out;
+	}
+
+	/* 2. SECTION BITIS */ 	
+
+
+
+
+/* 3. SECTION BASLANGIC */ 	
+	.infoSection {
+		background-color: white;
+	}
+
+	.infoSection .ourMission {
+		list-style-type: none;
+		padding-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.infoSection .ourMission span {
+		padding: 10px 30px;
+		border-radius: 20px;
+		background-color: #bb9d52;
+		border: 1px solid #bb9d52;
+		color: #ffffff;
+	}
+
+	.infoSection .ourMission span:hover {
+		background-color: #000000;
+		transition: 0.3s ease-in-out;
+		border-color: #000000;
+	}
+
+	.infoSection .ourMission .yazi1 {
+		padding-top: 50px;
+		color: #999;
+	    font-size: 15px;
+	    font-family: 'Montserrat', sans-serif;
+	    line-height: 1.80857;
+	}
+
+	.infoSection .ourMission .yazi2 {
+		padding-top: 25px;
+		color: #999;
+	    font-size: 15px;
+	    font-family: 'Montserrat', sans-serif;
+	    line-height: 1.80857;
+	}
+
+	.infoSection .a {
+		width: 100%;
+		left: 0;
+		border: 1px dashed #d3cbdb;
+	}
+
+	.infoSection .row img {
+		width: 100%;
+		height: 25vh;
+		border-radius: 10px;
+	}
+
+	.infoSection .col-md-4 {
+		text-align: center;
+	}
+
+	.infoSection .col-md-4 h3 {
+		color: #1f1f1f;
+	}
+
+	.infoSection .col-md-4 p {
+		color: #999;
+	    font-size: 15px;
+	    font-family: 'Montserrat', sans-serif;
+	    line-height: 1.80857;
+	}
+
+	.zoom {
+	    position: relative;
+	    -webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	    -moz-transform: scale(1);
+	    transition: all .3s ease-in;
+	    -moz-transition: all .3s ease-in;
+	    -webkit-transition: all .3s ease-in;
+	    -ms-transition: all .3s ease-in;
+	}
+
+
+	.zoom:hover
+	{
+	    z-index:2;
+	    -webkit-transform: scale(1.5);
+	    -ms-transform: scale(1.5);  
+	    -moz-transform: scale(1.5);
+	    transform: scale(1.5);
+	}
+
+
+
+	/* 3. SECTION BITIS */ 	
+
+
+/* 4. SECTION BASLANGIC */ 	
+
+	.barberSection .container {
+		height: 125vh;
+		background-color: #f2f3f5;
+	}
+
+	.barberSection .ustYazı {
+		text-align: center;
+	}
+
+	.barberSection .ustYazı small {
+		color: #999;
+	    font-size: 15px;
+	    font-family: 'Montserrat', sans-serif;
+	    line-height: 2;
+	}
+
+	.barberSection .ustYazı h3 {
+		font-size: 34px;
+		color: #1F1F1F;
+		font-weight: bold;
+	}
+
+	.barberSection .ustYazı hr {
+		width: 100px;
+	    margin: 0 auto 30px !important;
+	    padding: 0.7px;
+	    background-color: #111;
+	}
+
+	.barberSection .ustYazı hr:hover {
+		background-color: #bb9d52;
+	}
+
+	.barberSection .ustYazı p {
+		color: #999;
+	    font-weight: 400;
+	    font-size: 18px;
+	    line-height: 33px;
+	    margin: 0;
+	}
+
+	.barberSection .col-md-3 {
+		background-color: #ffffff;
+		width: 20%;
+		padding: 20px;
+		margin: 30px;
+	}
+
+	.barberSection .col-md-3 img {
+		width: 100%;
+		height: 25vh;
+	}
+
+	.barberSection .yazı1 h3 {
+		font-size: 21px;
+	    padding: 0 0 5px;
+	    margin: 0;
+	    line-height: 1;
+	    padding-top: 10px;
+	}
+
+	.barberSection .yazı2 h3 {
+		font-size: 21px;
+	    padding: 0 0 5px;
+	    margin: 0;
+	    line-height: 1;
+	    padding-top: 10px;
+	}
+
+	.barberSection .yazı3 h3 {
+		font-size: 21px;
+	    padding: 0 0 5px;
+	    margin: 0;
+	    line-height: 1;
+	    padding-top: 10px;
+	}
+
+	/* 4. SECTION BITIS */ 	
+
+
+
+/* 4. SECTION BASLANGIC */ 	
+
+	.testımonıalSection {
+		margin-top: 165px;
+		text-align: center;
+		background: url(../images/parallax_20.jpg) no-repeat;
+		background-size: 800px 800px;
+	}
+
+	.testımonıalSection .container {
+		height: 125vh;
+		color: #ffffff;
+	}
+
+	.testımonıalSection small {
+		font-size: 15px;
+	}
+		
+	.testımonıalSection h3 {
+	    font-size: 34px;
+	    padding: 10px 0 0;
+	    font-weight: bold;
+	    line-height: 1 !important;
+	}
+
+	.testımonıalSection .ustYazı hr {
+		width: 100px;
+	    margin: 0 auto 30px !important;
+	    padding: 0.7px;
+	    background-color: #111;
+	}
+
+	.testımonıalSection .ustYazı hr:hover {
+		background-color: #bb9d52;
+	}
+
+	.testımonıalSection .col-md-4 {
+		background-color: #bb9d52;
+		padding: 20px;
+		margin-left: 75px;
+		border-radius: 10px;
+	}
+
+	.testımonıalSection .col-md-4 .testimonial h3 {
+	    padding: 0 0 10px;
+    	font-size: 20px;
+   		font-weight: 600;
+	}
+
+	.testımonıalSection .col-md-4 .testimonial p {
+	    background-color: transparent;
+	    color: #ffffff;
+	    display: block;
+	    font-size: 16px;
+	    font-style: italic;
+	    line-height: 30px;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+
+	.testımonıalSection .col-md-4 .testimonial small {
+	    padding: 0 0 10px;
+    	font-size: 18px;
+	}
+
+
+
+	/* 4. SECTION BITIS */ 	
+
+
+/* 4. SECTION BASLANGIC */ 	
+
+	.copyrightsSection {
+		background-color: #000000;
+	}
+
+	.copyrightsSection .cpr1 {
+		padding: 32px;
+	}
+
+	.copyrightsSection .cpr1 a {
+		color: #999999;
+		padding-left: 20px;
+		margin-left: 20px;
+	}
+
+	.copyrightsSection .cpr1 a:hover {
+		color: #ffffff;
+		text-decoration: none;
+		transition: 0.5s;
+	}
+
+	.copyrightsSection .cpr2 {
+		padding-bottom: 10px;
+		padding-left: 70px;
+		color: #666666;
+	}
+
+	.copyrightsSection .cpr2 a {
+		color: #ffffff;
+	}
+
+	.copyrightsSection .cpr2 a:hover {
+		color: #bb9d52;
+		text-decoration: none;
+		transition: 0.5s;
+	}
+
+
+
+	/* 4. SECTION BITIS */ 	
